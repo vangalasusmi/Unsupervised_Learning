@@ -20,7 +20,7 @@ The project will involve the following tasks:
 - Checking the distribution of data with histograms of all the features,
 the data is not normally distributed and data is skewed.
 
-- ![Alt text](image.png)
+- "C:\Unsupervised Learning\image.png"
 
 - As seen feature data points takes a big jump after 3rd quartile(75%) and it could be potential outliers
 
@@ -46,7 +46,7 @@ def handle_outliers(dataframe, column):
 
 - for K-Means method we will first try to find the optimal value of k (number of clusters) that are best for model, we will take a range of k and run the loop and then compare plot the points on the graph and get the best k value through elbow method(value after the change in intertia is contant)
 
-![Alt text](image-1.png)
+![image-1](https://github.com/vangalasusmi/Unsupervised_Learning/assets/9608114/74769cf4-4511-4d58-878f-d431a32ddd5a)
 
 - As seen we can do 4 clusters for our data, now run fit the model again and divide the data into 4 clusters
 
@@ -58,7 +58,8 @@ def handle_outliers(dataframe, column):
 
 - we will find the best number of clusters throgh the denogram created
 
-![Alt text](image-2.png)
+![image-2](https://github.com/vangalasusmi/Unsupervised_Learning/assets/9608114/685b1b2e-b059-4fda-8136-400b9bfff782)
+
 
 - From the dendogram we will determine the cut off distance, it defines the threshold at which you cut the dendrogram to form a specific number of clusters where we look out for the longest vertical in the figure before joining.
 
@@ -74,7 +75,8 @@ def handle_outliers(dataframe, column):
 
 - As seen fromt the graph after 4th point the variance is not changing significantly
 
-![Alt text](image-3.png)
+![image-3](https://github.com/vangalasusmi/Unsupervised_Learning/assets/9608114/e09cd38b-7f62-4f5c-a684-e486af6a79cb)
+
 
 ### Conclusion
 
